@@ -1,0 +1,99 @@
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+body{
+  background-color: #ffdcf6;
+}
+
+#navbar{
+  border-bottom: 1px solid #fdceeb;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+#navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+#navbar ul li{
+  margin-left: 1em;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: #890869;
+}
+.form,
+.books-container{
+  width: 450px;
+  margin: 0 auto;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+.form-control input {
+  padding: 5px;
+}
+
+
+/* BOOKS */
+.books-container div{
+  border-bottom: 1px solid #fdceeb;
+  padding: 5px;
+  margin: 5px;
+}
+.bold{
+  font-weight: bold;
+}
+
+/* FAZENDO UM BOTÃO PARA O LINK DE VOTAR */
+.centro {
+  text-align: center; 
+  margin-top: 30px;  
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #fec0ee;
+  border: 1px solid #ffb9ed;
+  border-radius: 0;
+  color: #890869;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #fec0ee;
+  border-color: #999;
+}
+
+/* BOOK */
+#book-page {
+  padding: 2em;
+}
+#book-page .container {
+  text-align: center;
+}
+
+.actions {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.actions a {
+  margin-right: 1em;
+}

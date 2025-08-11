@@ -1,0 +1,28 @@
+<h1>MINHA ESTANTE</h1>
+<h2>Catalogue o livro:</h2>
+<form class="form" action="/books/insertbook" method="POST">
+    <div class="form-control">
+        <label for="title">Título:</label>
+        <input type="text" name="title" placeholder="Título do livro" value="{{book.title}}">
+    </div>
+
+    <div class="form-control">
+        <label for="autor">Nome do autor(a):</label>
+        <input type="text" name="authorname" placeholder="Nome do autor(a)" value="{{book.authorname}}">
+    </div>
+
+    <div class="form-control">
+        <label for="genres">Gênero Literário:</label>
+        <input type="text" name="genres" placeholder="Gênero Literário" value="{{book.genres}}">
+    </div>
+
+     <div class="form-control">
+        <label for="pageqty">Número de páginas:</label>
+        <input type="number" name="pageqty" placeholder="Páginas" value="{{book.pageqty}}">
+    </div>
+    <div class="form-control">
+        <label for="publishYear">Ano que livro foi publicado:</label>
+        <input type="number" name="publishYear" placeholder="Ano que livro foi publicado" value="{{book.publishYear}}">
+    </div>
+    <input type="submit" value="Cadastrar">
+</form>

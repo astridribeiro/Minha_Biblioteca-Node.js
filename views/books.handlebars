@@ -1,0 +1,11 @@
+<h1>Minha estante:</h1>
+<div class="books-container">
+    <div class="centro">
+        <a href="/" class="botao">Adicionar livro</a>
+    </div>
+    {{#each books}}
+        <div>
+            - <span class="bold"><a href="/books/{{this.id}}">{{this.title}}</a></span> | {{this.authorname}}
+        </div>
+    {{/each}}
+</div>
