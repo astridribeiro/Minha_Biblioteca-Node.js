@@ -22,7 +22,7 @@ app.post('/books/insertbook', (req, res) => {
     const authorname = req.body.authorname
     const genres = req.body.genres
     const publishYear = req.body.publishYear
-    const sql = `INSERT INTO books (??, ??, ??, ??, ??) VALUES (?, ?, ?, ?, ?)` // coluna ??  | dados ?
+    const sql = `INSERT INTO books (??, ??, ??, ??, ??) VALUES (?, ?, ?, ?, ?)`
     const data = ['title', 'pageqty', 'authorname', 'genres', 'publishYear', title, pageqty, authorname, genres, publishYear]
     console.log('Autor recebido:', authorname)
 
@@ -81,7 +81,7 @@ app.post('/books/updatebook', function (req, res) {
     const authorname = req.body.authorname
     const genres = req.body.genres
     const publishYear = req.body.publishYear
-    const sql = `INSERT INTO books (??, ??, ??, ??, ??) VALUES (?, ?, ?, ?, ?)` // coluna ??  | dados ?
+    const sql = `INSERT INTO books (??, ??, ??, ??, ??) VALUES (?, ?, ?, ?, ?)`
     const data = ['title', 'pageqty', 'authorname', 'genres', 'publishYear', title, pageqty, authorname, genres, publishYear]
     pool.query(sql, data, function (err) {
         if (err) {
