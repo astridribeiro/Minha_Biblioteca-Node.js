@@ -46,8 +46,6 @@ h2 {
   padding: 5px;
 }
 
-
-/* BOOKS */
 .books-container div{
   border-bottom: 1px solid #fdceeb;
   padding: 5px;
@@ -57,7 +55,6 @@ h2 {
   font-weight: bold;
 }
 
-/* FAZENDO UM BOTÃO PARA O LINK DE VOTAR */
 .centro {
   text-align: center; 
   margin-top: 30px;  
@@ -80,7 +77,6 @@ h2 {
   border-color: #999;
 }
 
-/* BOOK */
 #book-page {
   padding: 2em;
 }
