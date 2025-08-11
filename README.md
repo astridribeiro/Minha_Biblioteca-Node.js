@@ -3,7 +3,7 @@ Aplicação web em **Node.js** para gerenciamento de uma biblioteca virtual.
 
 ##  Tecnologias e ferramentas
 - **Node.js**
-- **JavaScript (ES6+)**
+- **JavaScript**
 - **Express.js** 
 - **Handlebars** 
 - **CSS** 
